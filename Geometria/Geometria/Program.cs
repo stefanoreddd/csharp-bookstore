@@ -15,11 +15,6 @@ base: 20 cm
 altezza: 10 cm
 Perimetro: 60 cm
 Area: 200 cm2
-
-
-BONUS:
-
-Aggiungere alla classe Rettangolo un metodo “disegna” che disegna in console il rettangolo con le sue dimensioni, ossia tanti “—” (due trattini) orizzontali quanto è grande la sua base e tanti ‘|’ verticali quanto e grande la sua altezza.
 */
 
 using Geometria;
@@ -41,63 +36,9 @@ Rettangolo rettangolo3 = new Rettangolo(30, 20);
 
 Rettangolo rettangolo4 = new Rettangolo(40, 30);
 
-rettangoloUser.calcolaPerimetro();
-rettangoloUser.calcolaArea();
-
-rettangolo2.calcolaPerimetro();
-rettangolo2.calcolaArea();
-
-rettangolo3.calcolaPerimetro();
-rettangolo3.calcolaArea();
-
-rettangolo4.calcolaPerimetro();
-rettangolo4.calcolaArea();
 
 
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO UTENTE -----");
-Console.WriteLine("Base: " + rettangoloUser.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangoloUser.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangoloUser.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangoloUser.calcolaArea() + " cm²");
-Console.WriteLine("------------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO 2 -----");
-Console.WriteLine("Base: " + rettangolo2.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangolo2.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangolo2.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangolo2.calcolaArea() + " cm²");
-Console.WriteLine("-------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-
-
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO 3 -----");
-Console.WriteLine("Base: " + rettangolo3.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangolo3.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangolo3.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangolo3.calcolaArea() + " cm²");
-Console.WriteLine("-------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-
-
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO 4 -----");
-Console.WriteLine("Base: " + rettangolo4.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangolo4.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangolo4.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangolo4.calcolaArea() + " cm²");
-Console.WriteLine("-------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-
-
-
-
-
-
-
-
-
-
+rettangoloUser.displayInfoRettangolo();
+rettangolo2.displayInfoRettangolo();
+rettangolo3.displayInfoRettangolo();
+rettangolo4.displayInfoRettangolo();
