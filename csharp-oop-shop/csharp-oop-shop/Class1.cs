@@ -109,11 +109,7 @@ namespace Shop
             return codice;
         }
 
-        public void StampaCodice()
-        {
-            Console.WriteLine("Codice Prodotto: " + this.codice);
-        }
-
+        
         public double PrezzoConIva()
         {
             double prezzoIva = prezzo * 1.22;
