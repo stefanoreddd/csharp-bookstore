@@ -30,18 +30,18 @@ namespace Shop
         public double PrezzoProdottoConIva { get { return this.prezzoIva; } }
 
 
-        
+
         // COSTRUTTORE
 
         public Prodotto(int codice, string nome, string descrizione, int iva, double prezzo)
         {
             this.codice = codice;
-            
+
             this.nome = nome;
             this.descrizione = descrizione;
             this.iva = iva;
             this.prezzo = prezzo;
-         
+
         }
 
         // GETTERS
@@ -54,7 +54,7 @@ namespace Shop
         public string GetNomeProdotto()
         {
             return this.nome;
-        } 
+        }
 
         public string GetDescrizioneProdotto()
         {
@@ -109,7 +109,7 @@ namespace Shop
             return codice;
         }
 
-        
+
         public double PrezzoConIva()
         {
             double prezzoIva = prezzo * 1.22;

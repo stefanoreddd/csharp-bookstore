@@ -11,15 +11,3 @@ Console.WriteLine("Prezzo: " + prodottoUser.GetPrezzoProdotto() + " euro");
 Console.WriteLine("Iva: " + prodottoUser.GetIvaProdotto() + "%");
 Console.WriteLine("Prezzo (con IVA): " + prodottoUser.PrezzoConIva() + " euro");
 Console.WriteLine("---------------------------------");
-
-
-
-
-
-
-
-
-
-
-
-
